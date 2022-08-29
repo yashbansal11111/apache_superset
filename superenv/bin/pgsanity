@@ -1,0 +1,12 @@
+#!"/home/yashbansal/Desktop/Apache Superset/superenv/bin/python3"
+# EASY-INSTALL-ENTRY-SCRIPT: 'pgsanity==0.2.9','console_scripts','pgsanity'
+__requires__ = 'pgsanity==0.2.9'
+import re
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+    sys.exit(
+        load_entry_point('pgsanity==0.2.9', 'console_scripts', 'pgsanity')()
+    )

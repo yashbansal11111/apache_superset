@@ -1,0 +1,2 @@
+#For starting apache superset in docker using docker-compose.yml
+docker-compose -f docker-compose-non-dev.yml up
