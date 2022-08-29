@@ -131,7 +131,7 @@ SMTP_STARTTLS = True
 SMTP_SSL = False
 SMTP_USER = "bansal.yash111@gmail.com"
 SMTP_PORT = 587
-SMTP_PASSWORD = "ykqbhpzdqpklrueo"
+SMTP_PASSWORD = "password"
 SMTP_MAIL_FROM = "bansal.yash111@gmail.com"
 
 ENABLE_CHUNK_ENCODING = False
